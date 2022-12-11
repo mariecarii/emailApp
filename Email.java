@@ -27,11 +27,11 @@ public class Email {
 
         // combine elements to create email (firstName.lastName@department.company.com)
         email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department.toLowerCase() + "." + companySuffix;
-        System.out.println("Your email:" + email);
+        System.out.println("Your email: " + email);
     }
     //Ask for the department
     private String setDepartment() {
-        System.out.println("Enter the number associated to your department: \n 1 for Engineering \n 2 for Sales \n 3 for Accounting");
+        System.out.println("New employee: " + firstName + ". " + "Enter the number associated to your department: \n 1 for Engineering \n 2 for Sales \n 3 for Accounting");
         Scanner scan = new Scanner(System.in);
         int depChoice = scan.nextInt();
         if (depChoice == 1) {
@@ -82,4 +82,10 @@ public class Email {
 
     //password
     public String getPassword() {return password;}
+
+    //method to show all the information
+    public String showInfo() {
+        return "NAME: " + firstName + " " + lastName + "\nCOMPANY EMAIL: " + email +
+                "\nMAILBOX CAPACITY: " + mailboxCapacity + " gb";
+    }
 }
