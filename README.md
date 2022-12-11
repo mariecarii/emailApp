@@ -1,6 +1,6 @@
 # Email App
 
-<img alt="Console Screenshot" src="/Users/marieyearup/emailAppProject/emailApp/codeScreenshotForReadme.png"/>
+<img alt="Console Screenshot" height="10" src="/Users/marieyearup/emailAppProject/emailApp/codeScreenshotForReadme.png" width="10"/>
 
 
 
