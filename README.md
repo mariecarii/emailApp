@@ -1,6 +1,6 @@
 # Email App
 
-![Console Screenshot](/Users/marieyearup/emailAppProject/emailApp/codeScreenshotForReadme.png)
+<img alt="Console Screenshot" src="/Users/marieyearup/emailAppProject/emailApp/codeScreenshotForReadme.png"/>
 
 
 
