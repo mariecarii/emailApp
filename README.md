@@ -1,6 +1,8 @@
 # Email App
 
-[//]: # (add image)
+![Console Screenshot](/Users/marieyearup/emailAppProject/emailApp/codeScreenshotForReadme.png)
+
+
 
 ## Project Description
 This project's goal was to create an application that helps companies generate emails for their employees. It takes in the user's first name, last name, and department. It returns a random password. It also allows you to change the password and define an alternate email.
