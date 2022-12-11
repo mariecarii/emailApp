@@ -5,6 +5,7 @@ public class Email {
     private String lastName;
     private String password;
     private String department;
+    private int defaultPasswordLength = 8;
     private int mailboxCapacity;
     private String alternateEmail;
 
@@ -17,6 +18,10 @@ public class Email {
         // call a method that asks for the department and returns it
         this.department = setDepartment();
         System.out.println("Department Selected: " + this.department);
+
+        // call a method that returns a random password
+        this.password = randomPassword(defaultPasswordLength);
+        System.out.println("Your password is: " + this.password);
     }
     //Ask for the department
     private String setDepartment() {
@@ -39,6 +44,15 @@ public class Email {
 
 
     //Generate a random password
+    private String randomPassword(int length) {
+        String passwordSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@!#$%";
+        char[] password = new char[length];
+        for (int i=0; i<length; i++) {
+            int random = (int) (Math.random() * passwordSet.length());
+            password[i] = passwordSet.charAt(random);
+        }
+        return new String (password);
+    }
 
     //Set alternate email
 
