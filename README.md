@@ -1,7 +1,7 @@
 # Email App
 
 <p>
-<img src="codeScreenshotForReadme.png" />
+<img src="codeScreenshotForReadme.png" alt="console screenshot"/>
 </p>
 
 
